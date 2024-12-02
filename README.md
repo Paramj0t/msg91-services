@@ -42,7 +42,7 @@ npm install msg91-service
 ## Example 1 (Email service with Template IDs)
 
 ```bash
-import { EmailServiceFactory, EmailServiceConfig } from 'msg91-services';
+import { EmailServiceFactory, EmailServiceConfig } from 'msg91-service';
 
 // Configuration for Msg91
 const msg91Config: EmailServiceConfig = {
@@ -81,7 +81,7 @@ msg91Service.sendEmail(msg91Payload)
 ## Example 2 (Email service with SMTP- nodemailer)
 
 ```bash
-import { EmailServiceFactory, EmailServiceConfig } from 'msg91-services';
+import { EmailServiceFactory, EmailServiceConfig } from 'msg91-service';
 
 // Configuration for Nodemailer
 const nodemailerConfig: EmailServiceConfig = {
