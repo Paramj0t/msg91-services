@@ -19,11 +19,10 @@ node_modules/
 jspm_packages/
 
 # Ignore compiled JavaScript files
-/dist
 *.js
+!dist/**/*.js
 
 # TypeScript build folder
-dist/
 build/
 
 # Environment variables
