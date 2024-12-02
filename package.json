@@ -1,6 +1,6 @@
 {
   "name": "msg91-service",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A flexible service factory for Msg91 and Nodemailer",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
