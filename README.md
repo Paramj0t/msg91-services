@@ -1,4 +1,4 @@
-# Msg91- Message & Email Services.
+# Msg91- Email & Message Services.
 
 [![npm version](https://badge.fury.io/js/message-email-service-factory.svg)](https://www.npmjs.com/package/message-email-service-factory)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,7 +9,7 @@ A modular and extensible factory for sending **emails** (and **messages** in fut
 
 ## Features
 - **Msg91** integration for emails using templates.
-- **Nodemailer** support for SMTP-based email delivery.
+- **Nodemailer** support for SMTP-based email delivery which can be easily integrated with msg91 as it provide smtp credentials.
 - Unified interface for sending emails across providers.
 - Easy to extend with additional services.
 - Written in **TypeScript** for type safety and better developer experience.
