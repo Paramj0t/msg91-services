@@ -9,7 +9,7 @@ A modular and extensible factory for sending **emails** (and **messages** in fut
 
 ## Features
 - **Msg91** integration for emails using templates.
-- **Nodemailer** support for SMTP-based email delivery which can be easily integrated with msg91 as it provide smtp credentials.
+- **Nodemailer** support for SMTP-based email delivery which can be easily integrated with msg91 as it provides SMTP credentials.
 - Unified interface for sending emails across providers.
 - Easy to extend with additional services.
 - Written in **TypeScript** for type safety and better developer experience.
@@ -19,6 +19,13 @@ A modular and extensible factory for sending **emails** (and **messages** in fut
 ---
 
 > **NOTE:** Please put the credentials from your msg91 account. It will be provided there.
+
+---
+
+## How to use Email Service of MSG91
+- There are two ways-
+  1. By creating templates on msg91 then providing template id as mentioned in Example 1.
+  2. By using SMTP credentials provided by msg91 to send email with nodemailer as mentioned in Example 2.
 
 ---
 
@@ -32,7 +39,7 @@ npm install msg91-services
 
 ---
 
-## Example 1
+## Example 1 (Email service with Template IDs)
 
 ```bash
 import { EmailServiceFactory, EmailServiceConfig } from 'msg91-services';
@@ -71,7 +78,7 @@ msg91Service.sendEmail(msg91Payload)
   });
 ```
 
-## Example 2
+## Example 2 (Email service with SMTP- nodemailer)
 
 ```bash
 import { EmailServiceFactory, EmailServiceConfig } from 'msg91-services';
