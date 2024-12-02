@@ -34,7 +34,7 @@ A modular and extensible factory for sending **emails** (and **messages** in fut
 Install the package using npm:
 
 ```bash
-npm install msg91-services
+npm install msg91-service
 ```
 
 ---
