@@ -1,0 +1,47 @@
+{
+  "name": "msg91-services",
+  "version": "1.0.0",
+  "description": "A flexible service factory for Msg91 and Nodemailer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^1.7.8",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/node": "^22.10.1",
+    "@types/nodemailer": "^6.4.17",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.7.2"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Paramj0t/msg91-services.git"
+  },
+  "keywords": [
+    "msg91",
+    "email",
+    "sms",
+    "message",
+    "service",
+    "factory",
+    "nodemailer"
+  ],
+  "author": "Paramjot Singh",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
