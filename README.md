@@ -1,13 +1,13 @@
 # Msg91- Email & Message Services.
 
-[![npm version](https://badge.fury.io/js/message-email-service-factory.svg)](https://www.npmjs.com/package/message-email-service-factory)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/message-email-service-factory.svg)](https://www.npmjs.com/package/msg91-service)        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A modular and extensible factory for sending **emails** (and **messages** in future versions). This package simplifies the process of integrating multiple email providers, starting with **Msg91** and **Nodemailer**.
 
 ---
 
 ## Features
+
 - **Msg91** integration for emails using templates.
 - **Nodemailer** support for SMTP-based email delivery which can be easily integrated with msg91 as it provides SMTP credentials.
 - Unified interface for sending emails across providers.
@@ -23,6 +23,7 @@ A modular and extensible factory for sending **emails** (and **messages** in fut
 ---
 
 ## How to use Email Service of MSG91
+
 - There are two ways-
   1. By creating templates on msg91 then providing template id as mentioned in Example 1.
   2. By using SMTP credentials provided by msg91 to send email with nodemailer as mentioned in Example 2.
